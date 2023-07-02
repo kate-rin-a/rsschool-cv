@@ -49,6 +49,6 @@ I hope my way in front-end will be long and exciting as now.
 ## Languages
 
 - **Russian** (native)
-- **English** (Pre-Intermediate)
+- **English** (B1 level : Intermediate)
 - **Japanese** (beginner)
 
