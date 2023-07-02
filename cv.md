@@ -18,10 +18,9 @@ Within a half of year I have learned basis of html, css, javaScript and even eng
 
 I hope my way in front-end will be long and exciting as now.
 
-## Skills/Skills and Proficiency:
+## Skills:
 
-- **HTML**
-- **CSS:**
+- **HTML/CSS**
 - **JavaScript:** (basic)
 - **Figma** 
 - **GitHub:** (basic)
