@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html class="page" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+
+    <title>CV file</title>
+</head>
+<body class="page-body">
+    <header class="page-header">
+       <div class="wrapper">      
+            <nav class="main-nav">
+                <ul class="main-nav__list">
+                    <li class="main-nav__item">
+                        <a class="main-nav__link" href="#contacts">Contacts</a>
+                    </li>
+                    <li class="main-nav__item">
+                        <a class="main-nav__link" href="#summary">Summary</a>
+                    </li>
+                    <li class="main-nav__item">
+                        <a class="main-nav__link" href="#skills">Skills</a>
+                    </li>
+                    <li class="main-nav__item">
+                        <a class="main-nav__link" href="#project">Project</a>
+                    </li>
+                    <li class="main-nav__item">
+                        <a class="main-nav__link" href="#code">Code</a>
+                    </li>
+                    <li class="main-nav__item">
+                        <a class="main-nav__link" href="#education">Education</a>
+                    </li>
+                    <li class="main-nav__item">
+                        <a class="main-nav__link" href="#languages">Languages</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="page-main wrapper">
+        <h1 class="main__title">Ekaterina Klimova</h1>
+        <img class="main__logo" src="assets/image/my-photo.jpg" alt="My photo">
+
+        <section class="contacts" id="contacts">
+            <h2 class="contacts__title">Contacts:</h2>
+            <ul class="contacts__list">
+                <li class="contacts__item">
+                    <b>Location: </b>
+                    <span>Russia</span>
+                </li>
+                <li class="contacts__item">
+                    <b>E-mail:</b>
+                    <a class="contacts__link" href="klimova_kate@yahoo.com">klimova_kate@yahoo.com</a>
+                </li>
+                <li class="contacts__item">
+                    <b>GitHub:</b>
+                    <a class="contacts__link" href="https://github.com/kate-rin-a">kate-rin-a</a>
+                </li>
+            </ul>
+        </section>
+
+        <section class="summary" id="summary">
+            <h2 class="summary__heading">Briefly about myself:</h2>
+            <p class="summary__text">Have you ever met life-long learner? Pleasure to meet you, it is me. All of my school-life my parents forced me studying hard and now I can’t imagine my life without this process.</p>
+            <p class="summary__text">My way in the world of front-end have started suddenly and unexpectedly: I passed by a layout course, then another and now I am a rs-school’s student .</p>
+            <p class="summary__text">Within a half of year I have learned basis of html, css, javaScript and even english and math. Althought my educational path hard to say easy (unfortunately I am certanly not young genius with logical mind), but I have had really big into coding for this 9 month and even more I like solve new tasks and achievement new goals.</p>
+            <p class="summary__text">I hope my way in front-end will be long and exciting as now.</p>
+        </section>
+
+    <div class="column-wrapper">
+        <section class="skills" id="skills">
+            <h2 class="skills__title">Skills:</h2>
+            <ul class="skills__list">
+                <li class="skills__item">HTML/CSS</li>
+                <li class="skills__item">JavaScript <span>(basic)</span></li>
+                <li class="skills__item">Figma</li>
+                <li class="skills__item">GitHub <span>(basic)</span></li>               
+            </ul>
+        </section>
+
+        <section class="code" id="code">
+            <h2 class="code__title">Code example (kata from <a href="https://www.codewars.com/dashboard">CODEWARS</a>)</h2>
+            <p><a class="code__link" href="https://www.codewars.com/kata/572fdeb4380bb703fc00002c">Codewars :</a> coding in function accept 1 parameters arr, it’s a string array. Your task is to put a character “|” into the middle of each element. For example: “abcd” should became “ab|cd”</p>
+            <pre><code>
+            function isolateIt(arr){
+                return arr.map((item) => {
+                  if (item.length % 2 === 0) {
+                    return item.slice(0, item.length/2) + '|' +
+                      item.slice(item.length/2);
+                  }; else {
+                    return item.slice(0, item.length/2) + '|' +
+                      item.slice(item.length/2+1);
+                  };
+                });
+            };
+        </code></pre>
+        </section>
+        <section class="education" id="education">
+            <h2 class="education__title">Education</h2>
+            <dl class="education__list">
+                <dt>Univercity: </dt>
+                <dd>Voronezh Institute of Art</dd>
+                <dt>Courses: </dt>
+                <dd><a href="https://htmlacademy.ru">HTML Academy</a></dd>
+            </dl>
+        </section>
+        <section class="project" id="project">
+            <h2 class="project__title">Project</h2>
+            <a href="https://kate-rin-a.github.io/rsschool-cv/">CV-file</a>
+        </section>
+    </div>
+        
+        <section class="languages" id="languages">
+            <h2 class="languages__title">Languages: </h2>
+            <dl class="languages__list">
+                <div>
+                    <dt>Russian</dt>
+                    <dd>(native)</dd>
+                </div>
+                <div>
+                    <dt>English</dt>
+                    <dd>(B1 level : Intermediate)</dd>
+                </div>
+                <div>
+                   <dt>Japanese</dt>
+                    <dd>(beginner)</dd>
+                </div>               
+            </dl>
+        </section>
+    </main>
+    <footer class="page-footer wrapper">
+        <span>2023</span>
+        <a class="footer__link" href="https://github.com/kate-rin-a">@kate-rin-a</a>
+        
+        <a class="footer__logo" href="https://rs.school/js/">
+                <img src="assets/image/rs_school_js.svg" width="150" height="56" alt="the Rolling school logo">
+        </a>
+    </footer>   
+</body>
+</html>
